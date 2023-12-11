@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://u3sdec7n4n52"]
+
+[ext_resource type="Script" path="res://reel.gd" id="1_jp3jd"]
+[ext_resource type="Texture2D" uid="uid://cb4kypegdqky5" path="res://_working/reel.png" id="2_mc57d"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_jp3jd")
+
+[node name="Reel" type="TextureRect" parent="."]
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 3.0
+offset_bottom = 3.0
+texture = ExtResource("2_mc57d")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Reel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.174
+anchor_top = 0.283
+anchor_right = 0.87
+anchor_bottom = 0.74
+metadata/_edit_use_anchors_ = true

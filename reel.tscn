@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3 uid="uid://brnq0kkd3ojl0"]
+
+[ext_resource type="Texture2D" uid="uid://cb4kypegdqky5" path="res://_working/reel.png" id="1_4j61u"]
+[ext_resource type="Script" path="res://reel.gd" id="1_i13qu"]
+
+[node name="Reel" type="TextureRect"]
+clip_contents = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 3.0
+offset_bottom = 3.0
+texture = ExtResource("1_4j61u")
+script = ExtResource("1_i13qu")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.993
+anchor_bottom = 1.0
+offset_right = 0.375977
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+clip_contents = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+metadata/_edit_use_anchors_ = true

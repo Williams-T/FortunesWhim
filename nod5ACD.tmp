@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://5jookjt8inhg"]
+
+[ext_resource type="Script" path="res://SlotMachine.gd" id="1_vy7yx"]
+
+[node name="SlotMachine" type="Node2D"]
+position = Vector2(198, 139)
+script = ExtResource("1_vy7yx")
